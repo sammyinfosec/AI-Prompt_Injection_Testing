@@ -1,6 +1,19 @@
-<?xml version="1.0" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg">
-  <script>
-    alert(document.domain);
-  </script>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="200" height="200" fill="white"/>
+
+  <text x="10" y="20"
+        font-size="14"
+        fill="black">
+    Nested fetch test
+  </text>
+
+  <!-- External nested resource -->
+  <image href="https://5946-217-216-105-82.ngrok-free.app/test.png"
+         x="0" y="0"
+         width="1"
+         height="1"/>
+
 </svg>
